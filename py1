@@ -1,0 +1,13 @@
+
+# Basic Input and Output Operations in Python
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+rollno = input('enter your roll no.')
+A = input('enter your class ')
+div = input('enter your division ')
+print("your name is :", name)
+print("your age is : ", age)
+print('your roll no. is :',rollno)
+print('your class is',A)
+print('your division is ',div)
