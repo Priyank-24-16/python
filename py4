@@ -1,0 +1,33 @@
+# Program to demonstrate string operations including slicing formatting and built-in string functions.
+
+
+text = "Hello, How are You ? "
+
+print("Original String:", text)
+
+print("\n--- String Slicing ---")
+print("First 5 characters:", text[:5])
+print("Last 12 characters:", text[-12:])
+print("Characters from index 7 to 13:", text[7:13])
+print("Reversed String:", text[::-1])
+
+name = "Raj"
+age = 21
+
+print("\n--- String Formatting ---")
+print("Using f-string:", f"My name is {name} and I am {age} years old.")
+print("Using format(): My name is {} and I am {} years old.".format(name, age))
+
+print("\n--- Built-in String Functions ---")
+print("Uppercase:", text.upper())
+print("Lowercase:", text.lower())
+print("Title Case:", text.title())
+print("Swap Case:", text.swapcase())
+print("Length of String:", len(text))
+print("Replace 'How' with 'Who':", text.replace("How", "Who"))
+print("Count of 'o':", text.count("o"))
+print("Starts with 'Hello':", text.startswith("Hello"))
+print("Ends with '!':", text.endswith("!"))
+print("Is Alphabetic ('Hello'):", "Hello".isalpha())
+print("Is Numeric ('12345'):", "12345".isdigit())
+print("Split String:", text.split())
