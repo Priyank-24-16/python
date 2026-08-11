@@ -1,0 +1,34 @@
+# Program to illustrate different data types and type casting
+
+integer_num = 25
+float_num = 10.75
+string_text = "Python"
+boolean_val = True
+
+print("Integer:", integer_num, "Type:", type(integer_num))
+print("Float:", float_num, "Type:", type(float_num))
+print("String:", string_text, "Type:", type(string_text))
+print("Boolean:", boolean_val, "Type:", type(boolean_val))
+
+
+print("\nType Casting Examples:")
+
+# Integer to Float
+int_to_float = float(integer_num)
+print("\nInteger to Float:", int_to_float, "Type:", type(int_to_float))
+
+# Float to Integer
+float_to_int = int(float_num)
+print("Float to Integer:", float_to_int, "Type:", type(float_to_int))
+
+# Integer to String
+int_to_string = str(integer_num)
+print("Integer to String:", int_to_string, "Type:", type(int_to_string))
+
+# String to Integer
+string_to_int = int("100")
+print("String to Integer:", string_to_int, "Type:", type(string_to_int))
+
+# Integer to Boolean
+int_to_bool = bool(integer_num)
+print("Integer to Boolean:", int_to_bool, "Type:", type(int_to_bool))
