@@ -1,0 +1,36 @@
+# Program to illustrate the use of tuples and sets with basic operations.
+
+# Tuple Operations
+my_tuple = (10, 20, 30, 40, 50)
+
+print("Tuple:", my_tuple)
+
+print("First element:", my_tuple[0])
+print("Last element:", my_tuple[-1])
+
+print("Sliced Tuple (1:4):", my_tuple[1:4])
+
+print("Length of Tuple:", len(my_tuple))
+
+print("Count of 20:", my_tuple.count(20))
+print("Index of 30:", my_tuple.index(30))
+
+# Set Operations
+
+set1 = {10, 20, 30, 40}
+set2 = {30, 40, 50, 60}
+
+print("\nSet 1:", set1)
+print("Set 2:", set2)
+
+set1.add(70)
+print("After adding 70:", set1)
+
+set1.remove(20)
+print("After removing 20:", set1)
+print("Length of set2:", len(set2))
+print("Length of set1:", len(set1))
+
+print("Is 30 present in set?", 30 in set1 )
+print("Is 100 present in set?", 100 in set2)
+for x in set2 :print(x)
